@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color:antiquewhite;
+    background-image:url("ownHouse\ \(2\).jpg");
+    background-size:auto;
+}
+
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.search-form input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;}
+   
+
+.search-form button {
+   
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.card{
+    padding-bottom: 15px;
+    margin: 0px;
+}
+main {
+    padding-top: 60px; 
+}
+@media screen and (max-width:1080px){
+    .card {
+        
+        height:50px;
+        
+        
+        margin-left:5px;
+    }
+}
